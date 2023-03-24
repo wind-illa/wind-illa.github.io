@@ -1,0 +1,89 @@
+body{
+    background: #E3E6E6;
+    color:#0F1111;
+    font-size: 14px;
+    line-height: 20px;
+    font-family:Arial,sans-serif;
+}
+
+h2 {
+    background:#ffffff;
+    font-family:Arial,sans-serif;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #963CBD;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #cb96e2;
+    text-decoration: none;
+    }
+
+.container{
+    width: 1080px;
+    margin: 10px auto;
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 300px;    
+    }
+}
+
+.card-white{
+    background: white;
+    margin: 20px 0px;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.img-circle{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.img-nombre{
+    width: 50%;
+}
+
+.btn-white{
+    background-color:#963CBD; 
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn-white:hover{
+    background-color: #d9bce5;
+    color: white;
+}
+
+.list-in-line{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-in-line li{
+    display: inline;
+    padding: 10px;
+}
+
+.list-in-line i{
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+
+.list-in-line i:hover{
+background-color: #0F1111;
+}
+
+#card-principal p{
+    margin-bottom: 40px;
+}
